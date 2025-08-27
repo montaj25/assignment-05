@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-05</title>
-</head>
-<body>
-    <header>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+</head>
+
+<body>
+    <header class="flex mx-10 justify-between p-3">
+        <div class="">
+            <div class="flex justify-center items-center gap-3">
+                <div class="w-12">
+                    <img src="./assets/logo.png" alt="">
+                </div>
+                <h1 class="font-bold">Emergency <br> Service</h1>
+            </div>
+
+        </div>
+        <div class="flex gap-3">
+            <div class=" flex bg-[#41FF6B] w-[106px] rounded-2xl justify-center gap-3 p-2">
+                <p id="love-number">0</p>
+                <img src="./assets/heart.png" alt="" class="w-5">
+            </div>
+            <div class=" flex bg-[#41FF6B] w-[106px] rounded-2xl justify-center gap-3 p-2">
+                <p id="coin-number">100</p>
+                <img src="./assets/coin.png" alt="" class="w-5">
+            </div>
+            <div class=" flex bg-[#41FF6B] w-[106px] rounded-2xl justify-center gap-3 p-2">
+                <p class="p-1"><span id="copy-number">0</span>        Copy</p>
+            </div>
+            
+        </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
